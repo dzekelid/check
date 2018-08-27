@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Route 53
 x-complete: 1
@@ -321,4 +320,3 @@ paths:
       tags:
       - Checks
       - Health
----

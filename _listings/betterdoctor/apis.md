@@ -8,11 +8,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-bett
 x-kinRank: "8"
 x-alexaRank: "625342"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BetterDoctor - API Health Check
+  x-api-slug: info-get
+  description: Returns basic API health information for monitoring
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
+  humanURL: https://developer.betterdoctor.com
+  baseURL: https://api.betterdoctor.com//2016-03-01
+  tags: Healthcare, Doctors, Technology, SaaS, Mobile, Insurance, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/betterdoctor/info-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bc.route.planner.api.gallery.streamdata.io

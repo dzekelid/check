@@ -8,11 +8,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Mattermost API Reference - Check MFA
+  x-api-slug: usersmfa-post
+  description: |-
+    Check if a user has multi-factor authentication active on their account by providing a login id. Used to check whether an MFA code needs to be provided when logging in.
+    ##### Permissions
+    No permission required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/mattermost/usersmfa-post-openapi.md
+- name: Mattermost API Reference - Check if team exists
+  x-api-slug: teamsnamenameexists-get
+  description: Check if the team exists based on a team name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/mattermost/teamsnamenameexists-get-openapi.md
+- name: Mattermost API Reference - Check system health
+  x-api-slug: systemping-get
+  description: |-
+    Check if the server is up and healthy based on the configuration setting `GoRoutineHealthThreshold`. If `GoRoutineHealthThreshold` and the number of goroutines on the server exceeds that threshold the server is considered unhealthy. If `GoRoutineHealthThreshold` is not set or the number of goroutines is below the threshold the server is considered healthy.
+    __Minimum server version__: 3.10
+    ##### Permissions
+    Must be logged in.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/mattermost/systemping-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://matrix.api.gallery.streamdata.io

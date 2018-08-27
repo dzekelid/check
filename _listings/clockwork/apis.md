@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1373-clock
 x-kinRank: "8"
 x-alexaRank: "643753"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/clockwork/apis.md
 specificationVersion: "0.14"
 apis:

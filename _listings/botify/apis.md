@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-boti
 x-kinRank: "7"
 x-alexaRank: "274018"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/botify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Urls Export Url
+    Export
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlsexporturl-export-id-get
+  description: Checks the status of an CSVUrlExportJob object. Returns json object
+    with the status.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlsexporturl-export-id-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.botify.com

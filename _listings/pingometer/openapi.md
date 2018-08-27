@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Pingometer
 x-complete: 1
@@ -7,13 +6,13 @@ info:
   description: the-checks-api-
   version: 1.0.0
 host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   ? |2-
 
@@ -49,4 +48,3 @@ paths:
           description: OK
       tags:
       - Checks
----

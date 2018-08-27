@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-
 x-kinRank: "7"
 x-alexaRank: "632"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/cisco-webex/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Webex Teams API - Check requestb.in (test purpose)
+  x-api-slug: 13f99fq1-get
+  description: check an event has been posted
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg
+  humanURL: https://webex.com
+  baseURL: https://api.ciscospark.com//v1
+  tags: Enterprise, Office, Collaboration, Video Conferencing, SaaS, Technology, Telecommunications,
+    API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/cisco-webex/13f99fq1-get-openapi.md
 x-common:
 - type: x-postman-collection
   url: https://app.getpostman.com/run-collection/1f5e101d8290a5303c90

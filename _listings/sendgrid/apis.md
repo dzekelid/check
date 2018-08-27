@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Check
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/sendgrid/mail-settingsspam-check-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/sendgrid/mail-settingsspam-check-get-openapi.md
+- name: SendGrid - Patch Mail Settings Spam Check
+  x-api-slug: mail-settingsspam-check-patch
+  description: |-
+    **This endpoint allows you to update your current spam checker mail settings.**
+
+    The spam checker filter notifies you when emails are detected that exceed a predefined spam threshold.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/check/master/_listings/sendgrid/mail-settingsspam-check-patch-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
